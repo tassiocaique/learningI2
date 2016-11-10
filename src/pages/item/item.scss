@@ -1,0 +1,15 @@
+page-item {
+  .title {
+    color: red;
+  }
+  // to slide works, but is not yet
+  .swiper-slide {
+    -webkit-justify-content: initial!important;
+    -ms-flex-pack: initial!important;
+    justify-content: initial!important;
+    -webkit-align-items: initial!important;
+    -ms-flex-align: initial!important;
+    align-items: initial!important;
+    overflow-y: scroll;
+  }
+}

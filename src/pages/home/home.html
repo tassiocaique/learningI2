@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Carlos Britto</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card *ngFor="let new of news; let i = index" (click)="clicked(i)">
+    <img src="{{new.image}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{new.title}}
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
